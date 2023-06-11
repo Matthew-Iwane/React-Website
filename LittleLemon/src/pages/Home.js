@@ -1,15 +1,17 @@
 import React from 'react'
-import {Nav} from "../components/Nav"
-import {Header} from "../components/Header"
-import {Main} from "../components/Main"
-import {Footer} from "../components/Footer"
+import { Nav } from "../components/shared/Nav"
+import { Header } from "../components/home/Header"
+import { Main } from "../components/home/Main"
+
 
 
 export const Home = () => {
   return (
     <>
       <Nav />
-      <h1>Welcome to the Little Lemon Website</h1>
+      <Header />
+      <Main />
+
     </>
   )
 }

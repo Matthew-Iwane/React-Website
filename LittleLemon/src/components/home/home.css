@@ -1,0 +1,29 @@
+.container {
+    height: 40vh;
+    background-color: rgba(73, 94, 87, 1);
+    display: flex;
+}
+
+#header {
+    font-family: Markazi Text;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 77px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.header-left {
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+.header-right {
+    display: flex;
+    justify-content: center;
+}
+
+.header-right img {
+    border-radius: 12px;
+    margin: 1em 0 1em 0;
+}
